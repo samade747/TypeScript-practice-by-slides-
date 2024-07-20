@@ -1,7 +1,7 @@
-// arrow function
+// // arrow function
 
-let add = (a: number, b: number) => {{
-    return a + b
-}
+// let add = (a: number, b: number) => {{
+//     return a + b
+// }
 
-console.log(add(5, 10))
+// console.log(add(5, 10))
