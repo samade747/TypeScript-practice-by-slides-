@@ -17,7 +17,7 @@ console.log(mutliply(5, 10))
 
 // Arrow Function
 
-let subtract = (a: number, b: number):number{
+let subtract = (a: number, b: number):number => {
     return a -b 
 }
 
@@ -80,3 +80,16 @@ function add2(a: any, b: any): any {
 }
 
 
+console.log(add2(5, 10))
+console.log(add2("hello", "maruam"))
+
+
+
+// Basic Functions: Define functions with specific parameter and return types.
+// Anonymous Functions: Assign functions to variables.
+// Arrow Functions: Use concise syntax for functions.
+// Optional Parameters: Use ? to make parameters optional.
+// Default Parameters: Provide default values for parameters.
+// Rest Parameters: Use ... to accept an indefinite number of arguments.
+// Async Functions: Use async and await for asynchronous code.
+// Function Overloads: Define multiple function signatures.
